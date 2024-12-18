@@ -6,13 +6,22 @@ interface EditorToolbarProps {
 
 const EditorToolbar: React.FC<EditorToolbarProps> = ({ onSave }) => {
   return (
-    <button
-      onClick={onSave}
-      className="fixed right-4 my-2 top-20 px-7 bg-white text-black border-4 border-black mr-20 text-2xl shadow-[3px_4px_0px_rgba(0,0,0,1)]"
-    >
-      {/* <Save size={20} text-/> */}
-      Save
-    </button>
+    // <button
+    //   onClick={onSave}
+    //   className="flex justify-center right-4 gap-2 my-2 top-20 px-7 bg-white text-black border-4 border-black mr-20 text-2xl shadow-[3px_4px_0px_rgba(0,0,0,1)]"
+    // >
+    //   {/* <Save size={20} text-/> */}
+    //   Save
+    // </button>
+    <div className="flex justify-between items-center mb-4">
+      <h1 className="text-xl ml-40">Demo editor by Dabbu Mothsera</h1>
+      <button
+        onClick={onSave}
+        className="px-4 bg-white text-black border-4 border-black mr-10 text-2xl shadow-[3px_4px_0px_rgba(0,0,0,1)]"
+      >
+        Save
+      </button>
+    </div>
   );
 };
 

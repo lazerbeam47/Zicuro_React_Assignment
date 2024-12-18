@@ -22,9 +22,9 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="max-w-3xl mx-auto space-y-6">
-        <h1 className="text-xl font-bold text-gray-800 text-center">
+        {/* <h1 className="text-xl font-bold text-gray-800 text-center">
           Demo editor by Dabbu Mothsera
-        </h1>
+        </h1> */}
         
         <EditorContainer 
           editorState={editorState}
