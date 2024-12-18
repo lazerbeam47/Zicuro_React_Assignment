@@ -15,7 +15,7 @@ const EditorContainer: React.FC<EditorContainerProps> = ({
   onSave,
 }) => {
   return (
-    <div className="space-y-6">
+    <div className="space-y-20">
       <EditorToolbar onSave={onSave} />
       <TextEditor 
         editorState={editorState}

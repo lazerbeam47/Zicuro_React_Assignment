@@ -8,7 +8,7 @@ const EditorToolbar: React.FC<EditorToolbarProps> = ({ onSave }) => {
   return (
     <button
       onClick={onSave}
-      className="absolute right-4 top-8 px-7 bg-white text-black border-4 border-black mr-20 text-2xl shadow-[3px_4px_0px_rgba(0,0,0,1)]"
+      className="fixed right-4 my-2 top-20 px-7 bg-white text-black border-4 border-black mr-20 text-2xl shadow-[3px_4px_0px_rgba(0,0,0,1)]"
     >
       {/* <Save size={20} text-/> */}
       Save
