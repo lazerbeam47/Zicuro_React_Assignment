@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.DraftEditor-root {
+  @apply relative;
+}
+
+.public-DraftEditor-content {
+  @apply min-h-[200px];
+}
+
+.public-DraftEditorPlaceholder-root {
+  @apply absolute text-gray-400;
+}
+
+.public-DraftEditorPlaceholder-hasFocus {
+  @apply text-gray-300;
+}
+
